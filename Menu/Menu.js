@@ -57,7 +57,7 @@ function menu (array) {
 
   // Step 4: add a click event listener to the menu button. When clicked it should toggle the class 'menu--open' on the menu (your div with a 'menu' class).
 
-  button.addEventListener('click', e => {
+  button.addEventListener('click', () => {
     MenuComponent.classList.toggle('menu--open');
   })
 
